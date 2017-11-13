@@ -1,6 +1,10 @@
 package com.course.ums;
 
+import com.course.ums.ws.ExamAdd;
+import com.course.ums.ws.group.*;
 import com.course.ums.ws.SemesterAdd;
+import com.course.ums.ws.course.TeacherCourseAdd;
+import com.course.ums.ws.course.TeacherCourseRemove;
 import com.course.ums.ws.user.AddUser;
 import com.course.ums.ws.user.ListUsers;
 import com.course.ums.ws.course.CourseAdd;
@@ -27,10 +31,20 @@ public class Test {
         Spark.post("/user/list", new ListUsers());
         Spark.get("/user/list", new ListUsers());
 
-        Spark.post("user/authenticate", new Authenticate());
-        Spark.post("user/student/add", new StudentAdd());
-        Spark.post("user/teacher/add", new TeacherAdd());
+        Spark.post("/user/authenticate", new Authenticate());
+        Spark.post("/user/student/add", new StudentAdd());
+        Spark.post("/user/teacher/add", new TeacherAdd());
         Spark.post("/course/add",new CourseAdd());
         Spark.post("/semester/add", new SemesterAdd());
+        Spark.post("/group/add" ,new GroupAdd());
+        Spark.post("/teacher/course/add" ,new TeacherCourseAdd());
+        Spark.post("/teacher/course/remove" ,new TeacherCourseRemove());
+        Spark.post("/group/teacher/add" ,new GroupTeacherAdd());
+        Spark.post("/group/teacher/remove" ,new GroupTeacherRemove());
+        Spark.post("/group/student/add" ,new GroupStudentAdd());
+        Spark.post("/group/student/remove" ,new GroupStudentRemove());
+        //Spark.post("/exam/add" ,new ExamAdd());
+
+
     }
 }
