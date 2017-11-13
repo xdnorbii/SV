@@ -1,0 +1,34 @@
+<component name="libraryTable">
+  <library name="org.nd4j:nd4j-jdbc-mysql:0.7.2" type="repository">
+    <properties maven-id="org.nd4j:nd4j-jdbc-mysql:0.7.2" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/nd4j/nd4j-jdbc-mysql/0.7.2/nd4j-jdbc-mysql-0.7.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.27/mysql-connector-java-5.1.27.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/nd4j/nd4j-jdbc-api/0.7.2/nd4j-jdbc-api-0.7.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/mchange/c3p0/0.9.5-pre5/c3p0-0.9.5-pre5.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/mchange/mchange-commons-java/0.2.6.2/mchange-commons-java-0.2.6.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/reflections/reflections/0.9.9-RC1/reflections-0.9.9-RC1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/11.0.2/guava-11.0.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.16.1-GA/javassist-3.16.1-GA.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/nd4j/nd4j-api/0.7.2/nd4j-api-0.7.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/nd4j/jackson/0.7.2/jackson-0.7.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.12/snakeyaml-1.12.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.2/joda-time-2.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.10/lombok-1.16.10.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/nd4j/nd4j-buffer/0.7.2/nd4j-buffer-0.7.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/nd4j/nd4j-common/0.7.2/nd4j-common-0.7.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-math3/3.4.1/commons-math3-3.4.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.3.1/commons-lang3-3.3.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp/1.3.1/javacpp-1.3.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/nd4j/nd4j-context/0.7.2/nd4j-context-0.7.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
